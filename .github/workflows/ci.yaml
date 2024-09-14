@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - main
+      - globalThisCI
   pull_request:
     types: [ assigned, opened, synchronize, reopened, labeled ]
 name: ci
